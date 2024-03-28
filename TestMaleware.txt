@@ -1,0 +1,7 @@
+@echo off
+start winword
+start notepad
+start write
+start cmd
+start control
+start calc

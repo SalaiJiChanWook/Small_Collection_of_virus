@@ -1,0 +1,11 @@
+Set shell = CreateObject("wscript.shell")
+pass = inputbox("Enter a Password")
+
+if pass = "123" then
+	shell.Run("www.lms.moeedu.org")
+else
+	do
+		msgbox("Something Was Wrong!!!")
+		pass=inputbox("Enter a Password")
+	loop
+end if
